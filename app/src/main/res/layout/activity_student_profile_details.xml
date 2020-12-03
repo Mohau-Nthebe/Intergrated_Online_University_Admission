@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    tools:context="com.example.intergratedapplicationhub.activities.StudentProfileDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:clickable="true"
+            android:layout_gravity="end"
+            app:srcCompat="@drawable/update" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="373dp"
+            android:layout_height="186dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERSONAL INFORMATION"
+            android:background="@drawable/bigbutton"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tvPersonalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESIDENTIAL ADDRESS"
+            android:background="@drawable/bigbutton"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tvResidentialAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN INFORMATION"
+            android:background="@drawable/bigbutton"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/tvLoginInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
